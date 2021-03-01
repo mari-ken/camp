@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* キービジュアル */
+.key-visual {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  padding: 20px;
+}
+
+/* メイン */
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.contents-first {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.contents {
+  padding: 30px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
