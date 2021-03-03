@@ -1,0 +1,89 @@
+/* CSS リセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+/* メインコンテンツ */
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.article {
+  width: 300px;
+  margin-right: 30px;
+  background-color: #eeeeee;
+}
+
+.article:last-child {
+  margin-right: 0;
+}
+
+.step {
+  position: absolute;
+  background-color: #ff9a4b;
+  color: #eeeeee;
+}
+
+.contents {
+  padding: 10px;
+}
+
+.back-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.back-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.back-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+/* 画面幅 ~768px CSS */
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .article {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .article:last-child {
+    margin: 0 auto;
+  }
+}
