@@ -1,0 +1,70 @@
+/* CSS リセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ヘッダー */
+header {
+  background-color: rgb(245, 39, 245);
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header div {
+  background-color: pink;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+header :first-child {
+  margin-right: auto;
+}
+
+/* メインコンテンツ */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.left-box {
+  background-color: yellowgreen;
+  width: 300px;
+}
+
+.right-box {
+  background-color: green;
+  max-width: 700px;
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.right-box div {
+  background-color: yellow;
+  height: 130px;
+  flex-basis: 200px;
+  margin: 10px;
+}
+
+/* フッター */
+footer {
+  background-color: rgb(47, 161, 206);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer div {
+  background-color: skyblue;
+  margin: 10px;
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+}
