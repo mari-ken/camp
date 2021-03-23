@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.line {
+  height: 3px;
+  width: 70px;
+  margin: 0 auto;
+  background-color: #ec715f;
+}
+
+header {
+  height: 70px;
+  background-color: #ec715c;
+}
+
+.description {
+  margin: 30px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.space > .title {
+  color: #000;
+  margin-bottom: 8px;
+}
+
+/* ヘッダー */
+header {
+  height: 70px;
+  background-color: #ec715c;
+}
+
+header > .space {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  height: 70px;
+  display: inline-block;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+/* キービジュアル */
+.visual {
+  height: 650px;
+  width: 100%;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-position: center;
+}
+
+.visual > h1 {
+  padding-top: 200px;
+  color: #fafafa;
+}
+
+.visual > p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+/* ポートフォリオ */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  background-color: #eceff1;
+}
+
+.portfolio > .space {
+  width: 920px;
+  text-align: center;
+  padding: 90px 0;
+  background-color: #eceff1;
+}
+
+.portImg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  height: 250px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.img:nth-child(3n + 1):nth-last-child(-n + 3),
+.img:nth-child(3n + 1):nth-last-child(-n + 3) ~ .img {
+  margin-bottom: 0;
+}
+
+/* フィーチャー */
+.feature > .space {
+  width: 980px;
+  margin: 90px auto;
+  text-align: center;
+}
+
+.featArticle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featArticle > .content {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.featArticle i {
+  font-size: 60px;
+}
+
+.featArticle h3 {
+  padding: 10px 0;
+}
+
+.featArticle p {
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+
+.featArticle > .content:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+/* プロフィール */
+.profile {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #eceff1;
+}
+
+.profile > .space {
+  width: 1024px;
+  margin: 90px auto;
+}
+
+.icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.proArticle {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.proArticle > .content {
+  width: 512px;
+}
+
+.proArticle h3 {
+  margin-bottom: 5px;
+}
+
+.proArticle p {
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+
+/* 連絡先 */
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact > .space {
+  width: 800px;
+  margin: 90px auto;
+}
+
+.conArticle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conArticle > .content {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.conArticle a {
+  color: #000;
+}
+
+.conArticle h3 {
+  margin-bottom: 5px;
+}
+
+.conArticle .content {
+  text-align: left;
+}
+
+.conArticle i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.conArticle i:last-child {
+  margin-right: 0;
+}
+
+/* フッター */
+footer {
+  height: 60px;
+  line-height: 60px;
+  background-color: #ec715f;
+  text-align: center;
+}
+
+footer > p {
+  color: #fafafa;
+  font-size: 16px;
+}
